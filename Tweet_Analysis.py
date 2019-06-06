@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 def percentage(part,whole):
     return 100*float(part)/float(whole)
 
-consumerKey = "Q5SbaAvdhbGhymwf2p6eh7Ohx"
-consumerSecret = "OTTl4YvcqrFGxX3BtGw65W4gr1v6jyB0zA8zoLQBMy6ThPmXy8"
-accessToken = "1118124119009026053-lfT0Z8xO6pNCfnNTbpQnrkvm1KtCh3"
-accessTokenSecret = "IKs0BMKPXoyciVUyGT6lSo04uXWIFLxUuIPn5Wyfw3Ntr"
+consumerKey = ""
+consumerSecret = ""
+accessToken = ""
+accessTokenSecret = ""
 
 auth = tweepy.OAuthHandler(consumerKey,consumerSecret)
 auth.set_access_token(accessToken, accessTokenSecret)
